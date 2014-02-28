@@ -220,7 +220,7 @@ def searchZappos(n, total):
         return "Invalid Inputs"
     
     #url for request and setup
-    limit = 3
+    limit = 10
     parse = []
     url = 'http://api.zappos.com/Search?term=&key=a73121520492f88dc3d33daf2103d7574f1a3166&page='
     for i in range(limit):

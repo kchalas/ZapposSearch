@@ -24,5 +24,8 @@ tables, the networking would have to be done in its API, and some of the methods
 to the shortcuts of array manipulation allowed in Python. 
 
 The slowest part in testing was the query to the site and on Thursday evening during final testing stages the 
-requests were being throttled. I was able to test the querying code on Wednesday, and it seemed to work, but the
+requests were being throttled. I limit how many pages of results return with the local variable to the search function
+named limit.
+
+I was able to test the querying code on Wednesday, and it seemed to work, but the
 rest of the program was tested on local input.
